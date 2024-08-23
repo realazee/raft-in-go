@@ -16,27 +16,6 @@ package raft
 //   should send an ApplyMsg to the service (or tester) in the same server.
 //
 /*
-Tests Presently Passing at least 50% of the time:
--All 4A
--Basic Agree
--RPC Byte
--FailAgree
--FailNoAgree
--Concurrent Start
--Count
--Unreliable Agree
--Persist 1
--Reliable Churn (10/10 first run, 9/10 on 2nd)
--Unreliable Churn
--Figure 8
--Figure 8 Unreliable
--Rejoin
--Persist 2
-
-
-Tests Presently Failing more than 50% of the time:
--Backup (2/10 first trial, 6/10 the next, 4/10 after, 7/10 now)
--Persist 3
 
 
 
