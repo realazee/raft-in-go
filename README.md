@@ -15,12 +15,6 @@ To get up and running, execute the following commands. Don't forget the `git pul
 ```
 $ cd raft
 $ go test -race
-Test (4A): initial election ...
---- FAIL: TestInitialElection4A (5.04s)
-        config.go:326: expected one leader, got none
-Test (4A): election after network failure ...
---- FAIL: TestReElection4A (5.03s)
-        config.go:326: expected one leader, got none
 ...
 ```
 
